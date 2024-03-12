@@ -11,6 +11,19 @@
 <body>
     <section class "filtros">
         <h2>Filtros</h2>
+        
+        <h3>Categoria</h3>
+        <div class="Categoria">
+            <label for="Categoria">Categorias</label>
+            <select id="Categoria">
+                <option value="">Todas</option>
+                <option value="Marca1">Gorras</option>
+                <option value="Marca2">Zapatos</option>
+                <option value="Marca3">Camisa</option>
+                <option value="Marca4">Pantalonetas</option>
+                <option value="Marca5">Medias</option>
+            </select>
+        </div>
         <h3>Precio</h3>
         <div class="Precio">
             <label for="precioMin"> Precio minimo</label>
@@ -19,7 +32,7 @@
             <input type="number" id="precioMax" name="precioMax">
 
         </div>
-
+        <h3>Marcas</h3>
         <div class="Marca">
             <label for="Marca">Marcas</label>
             <select id="Marca">
@@ -31,7 +44,7 @@
                 <option value="Marca5">rebook</option>
             </select>
         </div>
-
+        <h3>colores</h3>
         <div class="color">
             <label for="color"> Color</label>
             <input type="checkbox" id="color-Negro" name="color" value="Negro">
@@ -44,6 +57,7 @@
             <label for="color-Todos">Todos</label>
 
         </div>
+        
         <button type="submit">Filtrar</button>
 
     </section>
